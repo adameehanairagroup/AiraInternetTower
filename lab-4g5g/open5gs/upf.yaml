@@ -1,0 +1,10 @@
+# Template: merge into /etc/open5gs/upf.yaml
+upf:
+  pfcp:
+    - addr: 127.0.0.7
+  gtpu:
+    - addr: 127.0.0.7
+  session:
+    - subnet: 10.45.0.0/16
+      gateway: 10.45.0.1
+      dev: ogstun
