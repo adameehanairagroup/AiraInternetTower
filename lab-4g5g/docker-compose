@@ -1,0 +1,22 @@
+# Open5GS all-in-one (lab). Image/tag: verify on Docker Hub / Open5GS docs before use.
+services:
+  mongodb:
+    image: mongo:6
+    volumes: [ "./data/mongo:/data/db" ]
+    restart: unless-stopped
+  open5gs:
+    image: gradiant/open5gs:2.7.0
+    depends_on: [ mongodb ]
+    network_mode: host
+    cap_add: [ NET_ADMIN ]
+    devices: [ "/dev/net/tun" ]
+    environment:
+      DB_URI: mongodb://127.0.0.1:27017/open5gs
+    volumes: [ "./open5gs:/etc/open5gs/custom:ro" ]
+    restart: unless-stopped
+  webui:
+    image: gradiant/open5gs-webui:2.7.0
+    depends_on: [ mongodb ]
+    ports: [ "9999:9999" ]
+    environment:
+      DB_URI: mongodb://mongodb:27017/open5gs
