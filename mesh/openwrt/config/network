@@ -1,0 +1,22 @@
+config interface 'bat0_hardif'
+	option proto 'batadv_hardif'
+	option master 'bat0'
+	option mtu '1532'
+
+config interface 'bat0'
+	option proto 'batadv'
+	option routing_algo 'BATMAN_IV'
+	option bridge_loop_avoidance '1'
+	option gw_mode 'client'
+
+config interface 'lan'
+	option device 'br-lan'
+	option proto 'static'
+	option ipaddr '10.10.0.2'
+	option netmask '255.255.0.0'
+	option ip6assign '60'
+
+config device
+	option name 'br-lan'
+	option type 'bridge'
+	list ports 'bat0'
