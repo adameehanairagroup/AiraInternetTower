@@ -1,0 +1,9 @@
+name: lint
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m py_compile sockets/python/*.py
+      - run: sudo apt-get install -y shellcheck && shellcheck lab-4g5g/scripts/*.sh mesh/openwrt/scripts/*.sh
