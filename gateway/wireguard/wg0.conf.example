@@ -1,0 +1,10 @@
+# Generate keys: wg genkey | tee priv | wg pubkey
+[Interface]
+PrivateKey = <GATEWAY_PRIVATE_KEY>
+Address = 10.99.0.2/24
+
+[Peer]
+PublicKey = <VPS_PUBLIC_KEY>
+Endpoint = vps.example.org:51820
+AllowedIPs = 0.0.0.0/0
+PersistentKeepalive = 25
