@@ -1,14 +1,38 @@
-# 📡 Aira Internet Tower (AIT)
-### Sovereign Open-Source Community Cellular & Wireless Mesh Telecommunications Blueprint
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Core: Open5GS](https://img.shields.io/badge/Core-Open5GS-008080.svg)](https://open5gs.org/)
-[![RAN: srsRAN](https://img.shields.io/badge/RAN-srsRAN-orange.svg)](https://www.srsran.com/)
-[![Mesh: OpenWrt](https://img.shields.io/badge/Mesh-OpenWrt%20%7C%20B.A.T.M.A.N.--adv-0099e5.svg)](https://openwrt.org/)
-[![Security: WireGuard](https://img.shields.io/badge/Tunnel-WireGuard-88171a.svg)](https://www.wireguard.com/)
-[![Telemetry: Prometheus%20%2B%20Grafana](https://img.shields.io/badge/Telemetry-Prometheus%20%2B%20Grafana-F46800.svg)](https://grafana.com/)
-[![Founder & Architect: Er. Adam Eehan](https://img.shields.io/badge/Architect-Er.%20Adam%20Eehan-gold.svg)](https://github.com/adameehanairagroup)
-[![Organization: Aira Group of Technology](https://img.shields.io/badge/Organization-Aira%20Group%20of%20Technology-blueviolet.svg)](https://airaaigroup.in)
+<table border="0" style="border: none; background: transparent;">
+  <tr style="border: none; background: transparent;">
+    <td align="center" valign="middle" style="border: none; padding-right: 25px;">
+      <a href="https://airaaigroup.in" target="_blank">
+        <img src="assets/logo.png" width="95" alt="Aira Group of Technology Logo" style="border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+      </a>
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 0 15px;">
+      <h1 align="center" style="margin: 0; font-size: 2.3em; font-weight: 800; border-bottom: none;">
+        📡 Aira Internet Tower (AIT)
+      </h1>
+      <p align="center" style="margin: 8px 0 0 0; font-size: 1.05em; color: #38bdf8; font-weight: 600;">
+        Sovereign Open-Source Community Cellular (4G/5G) &amp; Wireless Mesh Telecommunications Blueprint
+      </p>
+    </td>
+    <td align="center" valign="middle" style="border: none; padding-left: 25px;">
+      <img src="assets/tower.svg" width="95" alt="Aira Internet Tower Icon" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(37,99,235,0.4);" />
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://open5gs.org/"><img src="https://img.shields.io/badge/Core-Open5GS-008080.svg" alt="Core: Open5GS"></a>
+  <a href="https://www.srsran.com/"><img src="https://img.shields.io/badge/RAN-srsRAN-orange.svg" alt="RAN: srsRAN"></a>
+  <a href="https://openwrt.org/"><img src="https://img.shields.io/badge/Mesh-OpenWrt%20%7C%20B.A.T.M.A.N.--adv-0099e5.svg" alt="Mesh: OpenWrt"></a>
+  <a href="https://www.wireguard.com/"><img src="https://img.shields.io/badge/Tunnel-WireGuard-88171a.svg" alt="Security: WireGuard"></a>
+  <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Telemetry-Prometheus%20%2B%20Grafana-F46800.svg" alt="Telemetry"></a>
+  <a href="https://github.com/adameehanairagroup"><img src="https://img.shields.io/badge/Architect-Er.%20Adam%20Eehan-gold.svg" alt="Architect: Er. Adam Eehan"></a>
+  <a href="https://airaaigroup.in"><img src="https://img.shields.io/badge/Organization-Aira%20Group%20of%20Technology-blueviolet.svg" alt="Organization: Aira Group of Technology"></a>
+</p>
+
+</div>
 
 ---
 
